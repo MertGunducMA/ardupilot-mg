@@ -188,6 +188,12 @@ class VehicleInfo(object):
                 "default_params_filename": ["default_params/copter.parm",
                                             "models/Callisto.param"],
             },
+            "t150": {
+                "model": "octa-quad:@ROMFS/models/t150.json",
+                "waf_target": "bin/arducopter",
+                "default_params_filename": ["default_params/copter.parm",
+                                            "models/t150_master.param"],
+            },
             "quad-can": {
                 "waf_target": "bin/arducopter",
                 "default_params_filename": ["default_params/copter.parm", "default_params/quad-can.parm"],
